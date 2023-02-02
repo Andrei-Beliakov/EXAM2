@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-html {
-  overflow-y: visible;
-}
-
 body {
   background-color: #ffffff;
   font-family: "Inter", sans-serif;
@@ -31,7 +27,6 @@ body {
   opacity: 0.7;
   background-color: rgb(0, 0, 0);
   z-index: 3;
-  transition: 0.5s;
 }
 
 .button {
@@ -49,14 +44,15 @@ body {
 p {
   margin-top: 30px;
 }
+
 h1 {
   margin-top: 10px;
   font-size: 22px;
 }
 
 .modal {
-  color: rgb(71, 71, 71);
   display: none;
+  color: rgb(71, 71, 71);
   background-color: rgb(242, 242, 242);
   padding: 30px;
   width: 300px;
@@ -69,5 +65,4 @@ h1 {
   transform: translate(-50%);
   z-index: 6;
   box-shadow: 0 0 100px white;
-  transition: 0.5s;
 }
