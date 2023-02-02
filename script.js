@@ -19,5 +19,6 @@ function closeModal(event) {
   } else {
     modal.style.display = "none";
     black.style.display = "none";
+    html.style.overflow = "visible";
   }
 }
